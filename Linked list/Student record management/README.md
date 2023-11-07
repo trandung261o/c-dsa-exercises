@@ -11,3 +11,7 @@ Write a program in command-line interactive mode that performs basic operations 
 - Delete a record
 - Search for a record
 - Save the record to a text file.
+
+### Solution:
+- code1 (using singly linked list)
+- code2 (using doubly linked list)
