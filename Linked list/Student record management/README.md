@@ -13,5 +13,5 @@ Write a program in command-line interactive mode that performs basic operations 
 - Save the record to a text file.
 
 ### Solution:
-- code1.c (using singly linked list)
-- code2.c (using doubly linked list)
+- solution1.c (using singly linked list)
+- solution2.c (using doubly linked list)
