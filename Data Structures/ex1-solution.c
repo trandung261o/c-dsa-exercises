@@ -83,18 +83,18 @@ int main() {
   ElementType a;
   int n;
   S1 = NULL;
-  // tao phan tu dau tien
+  // Create first element
   a = rand() % 100 - 50;
   S1 = Insert_ToHead(S1, a);
   printf("Nhap vao so luong phan tu n = ");
   scanf("%d", &n);
-  // tao ngau nghien danh sach va dua ra man hinh
+  // Generate a random list and print
   V1 = S1;
   for (int i = 2; i <=n; i++) {
     a = rand() % 100 - 50;
     V1 = Insert_Middle(V1, a);
   }
-  printf("Danh sach ban dau: \n"); Print(S1);
+  printf("original list: \n"); Print(S1);
   printf("\n");
   V1 = S1; S2 = NULL; S3 = NULL;
   while (V1) {
@@ -106,8 +106,8 @@ int main() {
       else {Insert_Middle(V3, V1->Inf); V3 = V3->Next;}
     V1 = V1->Next;
   }
-  printf("Danh sach so duong: \n"); Print(S2); printf("\n");
-  printf("Danh sach so am: \n"); Print(S3); printf("\n");
+  printf("positive numbers list: \n"); Print(S2); printf("\n");
+  printf("negative numbers list: \n"); Print(S3); printf("\n");
 
   S1 = MakeNull(S1); S2 = MakeNull(S2); S3 = MakeNull(S3);
   return 0;
