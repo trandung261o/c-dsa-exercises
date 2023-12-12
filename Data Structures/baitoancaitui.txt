@@ -1,0 +1,15 @@
+
+// Hàm tính giá trị hàm định nghĩa cận
+float bound(float solution[], float constraints[][NUM_VARS + 1], int num_constraints) {
+    float max_bound = 0;
+    for (int i = 0; i < num_constraints; i++) {
+        float coef_sum = 0;
+        for (int j = 0; j < NUM_VARS; j++) {
+            coef_sum += constraints[i][j] * solution[j];
+        }
+        if (coef_sum < constraints[i][NUM_VARS]) {
+            max_bound += constraints[i][NUM_VARS] - coef_sum;
+        }
+    }
+    return max_bound;
+}
