@@ -86,7 +86,7 @@ int main() {
   // Create first element
   a = rand() % 100 - 50;
   S1 = Insert_ToHead(S1, a);
-  printf("Nhap vao so luong phan tu n = ");
+  printf("number of elements = ");
   scanf("%d", &n);
   // Generate a random list and print
   V1 = S1;
