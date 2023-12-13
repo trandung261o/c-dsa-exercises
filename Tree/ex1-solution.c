@@ -52,6 +52,16 @@ void INORDER(Treenode *r) {
 	}
 }
 
+void freeTree(Treenode *r) {
+	if (r == NULL) return;
+	Treenode *temp = r->leftmost_child;
+	while(temp != NULL) {
+		freeTree(temp);
+		temp = temp->right_sibling;
+	}
+	free(r);
+}
+
 int main() {
 	Treenode *root = NULL;
 	Treenode *nutB, *nutC, *nutD, *nutE, *nutF, *nutG, *nutH, *nutI, *nutJ, *nutK; 
@@ -87,5 +97,7 @@ int main() {
 	POSTORDER(root);
 	printf("\ninorder: \n");
 	INORDER(root);
+
+	freeTree(root);
 	return 0;
 }
