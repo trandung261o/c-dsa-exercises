@@ -64,6 +64,17 @@ void freeTree(Treenode *r) {
 	free(r);
 }
 
+int countNode(Treenode *r) {
+	if (r == NULL) return 0;
+	int count = 1;
+	Treenode *temp = r->leftmost_child;
+	while(temp!=NULL){
+		count += countNode(temp);
+		temp = temp->right_sibling;
+	}
+	return count;
+}
+
 int main() {
 	Treenode *root = NULL;
 	Treenode *nutB, *nutC, *nutD, *nutE, *nutF, *nutG, *nutH, *nutI, *nutJ, *nutK; 
