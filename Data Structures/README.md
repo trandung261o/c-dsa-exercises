@@ -1,10 +1,10 @@
-### Exercise 1 (singly linked list): 
+##### Exercise 1 (singly linked list): 
     Build a program to perform the following tasks:
     - Generate a random list with integer elements. After that:
     - From the generated list, create two separate lists: 
     one containing all positive numbers, and the other containing all negative numbers from the original list.
 
-### Exercise 2 (singly linked list): Student Record Management Exercise
+##### Exercise 2 (singly linked list): Student Record Management Exercise
     A student record includes:
       -name: the student's name
       -email: the student's email address
