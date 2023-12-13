@@ -16,3 +16,18 @@
       -Delete a record
       -Search for a record
       -Save the records to a text file.
+
+##### Exercise 3 (doubly linked list): Student Record Management Exercise
+    A student record includes:
+      -name: the student's name
+      -email: the student's email address
+    Write a command-line interactive program to perform basic operations in student record management.
+    Perform the following tasks:
+      -Read data from a text file into a list
+      -Print the list of students
+      -Add a record to the end of the list
+      -Delete a record
+      -Search for a record
+      -Save the records to a text file.
+
+
