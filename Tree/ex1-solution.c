@@ -55,11 +55,13 @@ void INORDER(Treenode *r) {
 void freeTree(Treenode *r) {
 	if (r == NULL) return;
 	Treenode *temp = r->leftmost_child;
-	free(r);
+	Treenode *store = NULL;
 	while(temp != NULL) {
+		store = temp->right_sibling;
 		freeTree(temp);
-		temp = temp->right_sibling;
+		temp = store;
 	}
+	free(r);
 }
 
 int main() {
