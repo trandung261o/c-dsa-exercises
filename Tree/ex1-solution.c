@@ -75,6 +75,32 @@ int countNode(Treenode *r) {
 	return count;
 }
 
+int countLeaf(Treenode *r) {
+	if (r==NULL) return 0;
+	if (r->leftmost_child == NULL) return 1;
+	int count = 0;
+	Treenode *temp = r->leftmost_child;
+	while(temp!=NULL) {
+		count += countLeaf(temp);
+		temp = temp->right_sibling;
+	}
+	return count;
+}
+
+int countNodeWithKchild(Treenode *r, int k){
+	if (k < 0) return -1;
+	if (r == NULL) return 0;
+	int count = 0, i = 0;
+	Treenode *temp = r->leftmost_child;
+	while(temp != NULL) {
+		i++;
+		count += countNodeWithKchild(temp, k);
+		temp = temp->right_sibling;
+	}
+	if (i==k) count++;
+	return count;
+}
+
 int main() {
 	Treenode *root = NULL;
 	Treenode *nutB, *nutC, *nutD, *nutE, *nutF, *nutG, *nutH, *nutI, *nutJ, *nutK; 
@@ -106,11 +132,14 @@ int main() {
 
 	printf("preorder: \n");
 	PREORDER(root);
-	printf("\npostorder: \n");
+	printf("\n\npostorder: \n");
 	POSTORDER(root);
-	printf("\ninorder: \n");
+	printf("\n\ninorder: \n");
 	INORDER(root);
-
+	printf("\n\nnumber of Nodes: %d", countNode(root));
+	printf("\n\nnumber of Leaf: %d", countLeaf (root));
+	int k = 3;
+	printf("\n\nnumber of Node with %d childs: %d", k, countNodeWithKchild(root, k));
 	freeTree(root);
 	return 0;
 }
