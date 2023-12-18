@@ -4,15 +4,16 @@
 #include <stdlib.h>
 #include <time.h>
 
-void insertionSort(int A[], int N) {
-    for (int k = 1; k < N; k++) {
-        int last = A[k];
-        int j = k;
-        while (j>0 && A[j-1] > last) {
-            A[j] = A[j-1];
-            j--;
+void selectionSort(int A[], int N) {
+    for (int k = 0; k < N; k++) {
+        int min = k;
+        for (int j = k+1; j < N; j++) {
+            if (A[min] > A[j]) 
+                min = j;
         }
-        A[j] = last;
+        int tmp = A[min];
+        A[min] = A[k];
+        A[k] = tmp;
     }
 }
 
@@ -26,7 +27,7 @@ int main() {
         printf("%d ", a[i]);
     }
     printf("\n\n");
-    insertionSort(a, n);
+    selectionSort(a, n);
     printf("list after sort: \n");
     for (int i = 0; i < n; i++)
         printf("%d ", a[i]);
