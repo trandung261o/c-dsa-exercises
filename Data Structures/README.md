@@ -30,4 +30,9 @@
       -Search for a record
       -Save the records to a text file.
 
-##### Exercise 4 (Stack): basic manipulation with stack
+##### Exercise 4 (Stack): manipulations with stack
+        -createStack
+        -isEmpty
+        -push
+        -pop
+        -destroyStack        
