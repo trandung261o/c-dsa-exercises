@@ -53,21 +53,34 @@ void destroyStack (stack *s) {
     free(s);
 }
 
+/*solution function
+input: n, b (b<10)
+output: corresponding number in base b*/
+long long baseConverse(int n, int b) {
+    stack *s = createStack();
+    long long res = 0;
+    while (n != 0) {
+        push(s, n%b);
+        n /= b;
+    }
+
+    while (!isEmpty(s)) {
+        res = res*10 + pop(s);
+    } 
+
+    destroyStack(s);
+    return res;
+}
+
 int main() {
     stack *s = createStack();
     int n, b;
     /*printf("n = ");*/ scanf("%d", &n);
     /*printf("b = ");*/ scanf("%d", &b);
 
-    while (n != 0) {
-        push(s, n%b);
-        n /= b;
-    }
-    
-    while (!(isEmpty(s))) {
-        printf("%d", pop(s));
-    }
+    long long res = baseConverse(n, b);
+    //printf("the corresponding number in base %d is: ", b)
 
-    destroyStack(s);
+    printf("%lld", res);
     return 0;
 }
