@@ -31,8 +31,8 @@
       -Save the records to a text file.
 
 ##### Exercise 4 (Stack): manipulations with stack
-        -createStack
-        -isEmpty
-        -push
-        -pop
-        -destroyStack        
+    - createStack
+    - isEmpty
+    - push
+    - pop
+    - destroyStack        
