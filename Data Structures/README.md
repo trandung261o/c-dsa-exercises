@@ -42,3 +42,12 @@
         Decimal number n, base b (b<10)
     Output:
         Corresponding number in base b
+
+##### Exercise 6 (Stack): Parentheses Matching
+    Every "(", "{", or "[" must be paired with a corresponding ")", "}", or "]".
+    Examples:
+        Correct: ( )(( )){([( )])}
+        Correct: ((( )(( )){([( )])}))
+        Incorrect: )(( )){([( )])}
+        Incorrect: ({[ ])}
+        Incorrect: (
