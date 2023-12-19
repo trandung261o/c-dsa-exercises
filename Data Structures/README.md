@@ -39,6 +39,6 @@
 
 ##### Exercise 5 (Stack): Base Conversion Problem
     Input:
-        Decimal number n
+        Decimal number n, base b (b<10)
     Output:
         Corresponding number in base b
