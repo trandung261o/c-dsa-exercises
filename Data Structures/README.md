@@ -36,3 +36,9 @@
     - push
     - pop
     - destroyStack        
+
+##### Exercise 5 (Stack): Base Conversion Problem
+    Input:
+        Decimal number n
+    Output:
+        Corresponding number in base b
