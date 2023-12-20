@@ -43,11 +43,11 @@
     Output:
         Corresponding number in base b
 
-##### Exercise 6 (Stack): Parentheses Matching
-    Every "(", "{", or "[" must be paired with a corresponding ")", "}", or "]".
-    Examples:
-        Correct: ( )(( )){([( )])}
-        Correct: ((( )(( )){([( )])}))
-        Incorrect: )(( )){([( )])}
-        Incorrect: ({[ ])}
-        Incorrect: (
+##### Exercise 7 (Queue): Escape the Matrix
+    A maze is represented by a binary matrix A of size M x N, where A[i][j] equals 1 if the cell (i, j) is a brick wall, 
+    and A[i][j] equals 0 if the cell (i, j) is an empty cell that can be entered.
+    From an empty cell, you can move to any of its 4 adjacent cells (up, down, left, right) if that cell is also an empty cell.
+    Compute the minimum number of moves required to exit the maze starting from a given empty cell (i_0, j_0).
+    Note: The solution should be calculated such that it uses the fewest possible moves.
+
+
