@@ -28,3 +28,5 @@
     -Height <id>: Print to the screen the height of the node <id> (if it exists)
     -Store <filename>: Save the tree data to file <filename>
     -Quit: Exit the program
+
+##### Exercise 4: (Normal tree)
