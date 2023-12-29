@@ -46,5 +46,5 @@
     Write a program that allows the user to enter a sentence as command line arguments 
     (each word in the sentence is a command line argument). 
     The program displays the reversed content of the entered sentence.
-    - Example: ./inverse I love HUST
+    Example: ./inverse I love HUST
     - Result: HUST love I
