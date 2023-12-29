@@ -42,3 +42,9 @@
     Write a program that takes two real numbers as command line arguments, 
     representing the length and width of a rectangle.
     The program calculates and prints the area and perimeter of the rectangle based on these inputs.
+##### Exercise 9:
+    Write a program that allows the user to enter a sentence as command line arguments 
+    (each word in the sentence is a command line argument). 
+    The program displays the reversed content of the entered sentence.
+    - Example: ./inverse I love HUST
+    - Result: HUST love I
