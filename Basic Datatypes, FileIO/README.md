@@ -12,3 +12,4 @@
     The letter 'o' appears 2 time(s).
     The letter 'r' appears 1 time(s).
     The letter 'w' appears 1 time(s).
+##### Exercise 4:
