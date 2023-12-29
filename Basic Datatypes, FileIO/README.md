@@ -1,6 +1,7 @@
 ##### Exercise 1: Display the array in reverse order
 ##### Exercise 2: Find the Special Element in the Array
-    Extend the above example program to display the array element that is closest to the average value of all array elements.
+    Extend the above example program to display the array element 
+    that is closest to the average value of all array elements.
 ##### Exercise 3:
     Write a program that takes an input string and displays the number of occurrences of each character in the string. 
     The output should be displayed for the input string 'hello, world!':
