@@ -36,3 +36,5 @@
     The
     house
     ….
+##### Exercise 7: 
+    Write a function that takes a real number (double) as an argument and returns its integer and fractional parts.
