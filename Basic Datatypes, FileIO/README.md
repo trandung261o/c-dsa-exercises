@@ -2,9 +2,8 @@
 ##### Exercise 2: Tìm phần tử đặc biệt trong mảng
     Viết tiếp chương trình ví dụ trên để hiển thị phần tử mảng có giá trị gần nhất với giá trị trung bình của tất cả các phần tử mảng
 ##### Exercise 3:
-    Viết chương trình nhập vào một xâu ký tự và hiển thị số lần xuất
-    hiện của mỗi ký tự có trong xâu.
-    Kết quả hiển thị với xâu đầu vào: “hello, world!”
+    Write a program that takes an input string and displays the number of occurrences of each character in the string. 
+    The output should be displayed for the input string 'hello, world!':
     The letter 'd' appears 1 time(s).
     The letter 'e' appears 1 time(s).
     The letter 'h' appears 1 time(s).
