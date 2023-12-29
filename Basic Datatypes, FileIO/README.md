@@ -39,5 +39,6 @@
 ##### Exercise 7: 
     Write a function that takes a real number (double) as an argument and returns its integer and fractional parts.
 ##### Exercise 8:
-    Write a program that takes two real numbers as command line arguments, representing the length and width of a rectangle.
+    Write a program that takes two real numbers as command line arguments, 
+    representing the length and width of a rectangle.
     The program calculates and prints the area and perimeter of the rectangle based on these inputs.
