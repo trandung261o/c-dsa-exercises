@@ -48,3 +48,28 @@
     The program displays the reversed content of the entered sentence.
     Example: ./inverse I love HUST
     - Result: HUST love I
+##### Exercise 10:
+    Write a program to calculate the exponential function of a natural base, e, raised to the power of x. 
+    Users can run the program with two syntaxes:
+    <Program_Name> <exponential_value>, for example: e 50
+    Or
+    <Program_Name> <exponential_value> <permissible_error>. For example: e 50 0.0003
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
