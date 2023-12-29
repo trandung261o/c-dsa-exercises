@@ -54,10 +54,11 @@
     <Program_Name> <exponential_value>, for example: e 50
     Or
     <Program_Name> <exponential_value> <permissible_error>. For example: e 50 0.0003
-    
-    
-
-
+##### Exercise 11:
+    Write a program named 'sde' that takes command line arguments as the coefficients of a quadratic 
+    equation ax^2 + bx + c = 0 and solves the equation, printing the solutions on the screen.
+    •Syntax using 'sde a b c'
+    •Example: ./sde 1 2 1 yields the result: x1 = x2 = -1
 
 
 
