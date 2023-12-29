@@ -4,7 +4,7 @@
     that is closest to the average value of all array elements.
 ##### Exercise 3:
     Write a program that takes an input string and displays the number of occurrences of each character in the string. 
-    The output should be displayed for the input string 'hello, world!':
+    The output should be displayed for the input string "hello, world!":
     The letter 'd' appears 1 time(s).
     The letter 'e' appears 1 time(s).
     The letter 'h' appears 1 time(s).
