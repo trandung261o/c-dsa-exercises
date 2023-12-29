@@ -13,3 +13,5 @@
     The letter 'r' appears 1 time(s).
     The letter 'w' appears 1 time(s).
 ##### Exercise 4:
+    Write a function that takes two integer arrays as arguments, both having the same number of elements. 
+    The function returns 1 if the two arrays have identical content and 0 for all other cases.
