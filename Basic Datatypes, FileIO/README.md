@@ -15,3 +15,14 @@
 ##### Exercise 4:
     Write a function that takes two integer arrays as arguments, both having the same number of elements. 
     The function returns 1 if the two arrays have identical content and 0 for all other cases.
+##### Exercise 5:
+    Write a function:
+    - With parameters as a string and two characters.
+    - The function will traverse the string and replace all occurrences 
+    of the first character in the string with the second character.
+    Write a program to test the above function:
+    - Read a string that does not contain whitespace and two characters, 
+    then call the function with the specified arguments and print the result.
+    Example:
+    - Input: "papa", 'p', 'm'
+    - Result: "mama"
