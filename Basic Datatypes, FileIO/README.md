@@ -33,6 +33,6 @@
     Example:
     ▪ Input: "The house next door is very old."
     ▪ Result:
-    • The
-    • house
-    • ….
+    The
+    house
+    ….
