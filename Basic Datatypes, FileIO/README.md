@@ -26,3 +26,13 @@
     Example:
     - Input: "papa", 'p', 'm'
     - Result: "mama"
+##### Exercise 6: Word Separation
+    Write a program that reads a character string representing a sentence from the user. 
+    Then the program displays each word in the sentence on a separate line. 
+    A word is a sequence of consecutive characters that does not contain whitespace.
+    Example:
+    ▪ Input: "The house next door is very old."
+    ▪ Result:
+    • The
+    • house
+    • ….
