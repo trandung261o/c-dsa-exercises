@@ -69,9 +69,15 @@
     but instead of using the fgetc and fputc function pair, 
     use the fgets and fputs function pair to read from the file and write to the file, 
     processing one line of text content at a time.
-
-
-
+##### Exercise 14:
+    Modify the file copying program so that the program only displays the file content on the screen, 
+    then shows the number of lines of text.
+    Illustration of the program interface:
+        Reading file Haiku.txt…. done!
+        Haiku haiku
+        Tokyo
+        Hanoi
+        This file has 3 lines
 
 
 
