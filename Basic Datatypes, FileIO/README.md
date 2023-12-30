@@ -97,8 +97,8 @@
         2 Apple_MacBook_2020 18560000
     Write a program to read the above file into an array of structure elements and 
     then display the content of the array on the screen in the following format:
-        No Product Name Price
-        1 Samsung_Television_4K 20000000
+        No     Product Name             Price
+        1      Samsung_Television_4K    20000000
         ...
 
 
