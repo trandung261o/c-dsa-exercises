@@ -64,7 +64,11 @@
     saved in the same directory as the program.
     Write a program to read from the above file character by character, 
     then write them to a new file named 'lab1w.txt'.
-
+##### Exercise 13:
+    Re-implement the file content copying programming exercise, 
+    but instead of using the fgetc and fputc function pair, 
+    use the fgets and fputs function pair to read from the file and write to the file, 
+    processing one line of text content at a time.
 
 
 
