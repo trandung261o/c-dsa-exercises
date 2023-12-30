@@ -59,7 +59,11 @@
     equation ax^2 + bx + c = 0 and solves the equation, printing the solutions on the screen.
     - Syntax using 'sde a b c'
     - Example: ./sde 1 2 1 yields the result: x1 = x2 = -1
-
+##### Exercise 12: Copying File Content
+    Create a text file named 'lab1.txt' with any content, 
+    saved in the same directory as the program.
+    Write a program to read from the above file character by character, 
+    then write them to a new file named 'lab1w.txt'.
 
 
 
