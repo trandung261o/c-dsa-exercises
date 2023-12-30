@@ -12,15 +12,20 @@ void LineMerge(FILE *f1, FILE *f2, FILE *f3) {
         if (fgets(buff2, MAX_LEN, f2) != NULL) fputs(buff2, f3);
 
         // Exit the loop when both files are at the end.
-        if (feof(f1) && feof(f2)) break;  
+        if (feof(f1) && feof(f2)) break;
     }
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     FILE *f1, *f2, *f3;
-    char filename1[] = "file1.txt";
-    char filename2[] = "file2.txt";
-    char filename3[] = "file3.txt";
+    char filename1[] = argv[1];
+    char filename2[] = argv[2];
+    char filename3[] = argv[3];
+    if (argc != 4) {
+        printf("Wrong number of argument!\n");
+        printf("CORRECT SYNTAX: merge <file1> <file2> <file3>\n");
+        return 1;
+    }
     int reval = SUCCESS;
 
     if ((f1 = fopen(filename1, "r")) == NULL) {
