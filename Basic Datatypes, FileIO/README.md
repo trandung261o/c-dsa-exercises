@@ -78,8 +78,17 @@
         Tokyo
         Hanoi
         This file has 3 lines
-
-
+##### Exercise 15: 
+    Write a command-line program as follows:
+    merge <file1> <file2> <file3>
+    The program writes to file 3 by reading and
+    merging each line sequentially from file 1 and file 2.
+    The program reads a line from file 1, writes it to
+    file 3, then reads a line from file 2 and writes it to
+    file 3. Note: File 1 and File 2 may have a different
+    number of lines; when one file's content is fully
+    read, the program copies the remaining lines from
+    the other file to file 3
 
 
 
