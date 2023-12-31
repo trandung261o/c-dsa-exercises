@@ -100,7 +100,13 @@
         No     Product Name             Price
         1      Samsung_Television_4K    20000000
         ...
-
+##### Exercise 17: 
+    Implement the function my_strcat:
+    - Takes two input strings, s1 and s2.
+    - Returns a pointer pointing to the dynamically allocated memory containing the concatenated string of s1 and s2.
+    Example: Concatenating "hello_" and "world!" results in "hello_world!"
+    - Utilize dynamic memory allocation techniques.
+    - Test your function
 
 
 
