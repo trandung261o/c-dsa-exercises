@@ -43,6 +43,15 @@
     Output:
         Corresponding number in base b
 
+##### Exercise 6:
+    Every '(', '{', or '[' must be paired with ')', '}', or ']'
+    - Examples:
+    Correct: ( )(( )){([( )])}
+    Correct: ((( )(( )){([( )])}))
+    Incorrect: )(( )){([( )])}
+    Incorrect: ({[ ])}
+    Incorrect: (
+
 ##### Exercise 7 (Queue): Escape the Matrix
     A maze is represented by a binary matrix A of size M x N, where A[i][j] equals 1 if the cell (i, j) is a brick wall, 
     and A[i][j] equals 0 if the cell (i, j) is an empty cell that can be entered.
