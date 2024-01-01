@@ -43,7 +43,7 @@
     Output:
         Corresponding number in base b
 
-##### Exercise 6:
+##### Exercise 6 (Stack):
     Every '(', '{', or '[' must be paired with ')', '}', or ']'
     - Examples:
     Correct: ( )(( )){([( )])}
