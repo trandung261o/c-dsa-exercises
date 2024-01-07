@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <cstring>
 int x[100]; 
 int n = 4;
 int row, col;
@@ -15,7 +15,7 @@ int check(int v, int k) {
 	for (int i = 1; i < k; i++) {
 		//kiểm tra v, k có phải hàng cột của con hẫu có sẵn không
 		if (v == row || k == col) return 0;
-		
+
 		if (x[i] == v) return 0;
 		if (x[i] + i == v + k) return 0;
 		if (x[i] - i == v - k) return 0;
@@ -34,9 +34,16 @@ void TRY(int k) {
 }
 
 int main() {
+	memset(x, -1, sizeof(x));
 	//nhập giá trị hàng cột cho con hậu đã có sẵn
 	scanf("%d%d", &row, &col);
 	x[col] = row;
 
 	TRY(1);
+	for (int i = 1; i <= n; i++) {
+		if (x[i] == -1) {
+			printf("-1");
+			return 0;
+		}
+	}
 }
