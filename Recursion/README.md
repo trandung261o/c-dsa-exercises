@@ -20,3 +20,8 @@
 ##### Exercise 9:
     tương tự Ex8 nhưng bàn cờ đã có 1 con hậu được xếp sẵn
     nếu không có lời giải, in ra -1
+##### Exercise 10:
+    Cho số nguyên dương M, N và N số nguyên dương A1, A2, …, AN. 
+    Liệt kê các nghiệm nguyên dương của phương trình
+    A1X1 + A2X2 + . . . + ANXN = M
+    In ra tích lớn nhất X1 * X2 * ... * XN
