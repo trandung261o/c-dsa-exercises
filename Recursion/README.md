@@ -17,3 +17,5 @@
     x[i] != x[j], với mọi 1 <= i < j <= n
     x[i] +i != x[j] +j, với mọi 1 <= i < j <= n
     x[i] –i != x[j] -j, với mọi 1 <= i < j <= n
+##### Exercise 9:
+    tương tự Ex8 những bàn cờ đã có 1 con hậu được xếp sẵn
