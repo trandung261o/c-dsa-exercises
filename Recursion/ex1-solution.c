@@ -17,6 +17,15 @@ int tohop(int k, int n) {
 	}
 }
 
+int fibonacci(int n) {
+	if (n <= 1) return 1;
+	else {
+		int n1 = fibonacci(n-1);
+		int n2 = fibonacci(n-2);
+		return n1 + n2;
+	}
+}
+
 void thaphn(int n, char A, char B, char C) {
 	if (n == 1) {
 		printf("Move 1 disk from %c to %c\n", A, B);
@@ -28,8 +37,9 @@ void thaphn(int n, char A, char B, char C) {
 }
 
 int main() {
-  printf("%d\n", tong(5));
-  printf("%d\n", tohop(2, 3));
+  	printf("%d\n", tong(5));
+  	printf("%d\n", tohop(2, 3));
+	printf("%d\n", fibonacci(6));
 	thaphn(3, 'A', 'B', 'C');
 	return 0;
 }
