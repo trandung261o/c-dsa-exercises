@@ -19,3 +19,4 @@
     x[i] –i != x[j] -j, với mọi 1 <= i < j <= n
 ##### Exercise 9:
     tương tự Ex8 nhưng bàn cờ đã có 1 con hậu được xếp sẵn
+    nếu không có lời giải, in ra -1
