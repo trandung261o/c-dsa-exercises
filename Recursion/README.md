@@ -4,3 +4,4 @@
 ##### Exercise 4: generate binary strings
 ##### Exercise 5: generate binary strings such that no two consecutive bits are 1
 ##### Exercise 6: enumerate combinations
+##### Exercise 7: enumerate permutations
