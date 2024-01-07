@@ -13,7 +13,7 @@ void printSolution() {
 
 void Try(int k) {
 	for (int v = 0; v <= 1; v++) {
-    //check
+    		//check
 		if (x[k-1] + v < 2) { 
 			x[k] = v;
 			if (k == n-1) printSolution();
