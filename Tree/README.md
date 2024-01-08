@@ -31,3 +31,8 @@
 
 ##### Exercise 4: (Normal tree)
 ##### Exercise 5: Binary tree manipulation 2
+    insert node
+    delete node
+
+
+
