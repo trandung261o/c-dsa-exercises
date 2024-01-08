@@ -6,8 +6,10 @@ int M, N;
 int A[MAX_N];
 int X[MAX_N];
 int maxproduct = -10e4;
+int count = 0;
 void printSolution() {
     int product = 1;
+    count++;
     for (int i = 0; i < N; i++) {
         product *= X[i];
         printf("%d ", X[i]);
@@ -43,6 +45,10 @@ int main() {
     }
 
     solve(0, M);
+    if (count == 0) {
+        printf("-1");
+        return 0;
+    }
     printf("\nmaxproduct = %d", maxproduct);
     return 0;
 }
