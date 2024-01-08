@@ -25,3 +25,9 @@
     Liệt kê các nghiệm nguyên dương của phương trình
     A1X1 + A2X2 + . . . + ANXN = M
     In ra tích lớn nhất X1 * X2 * ... * XN
+##### Exercise 11:
+    Điền các chữ số từ 1 đến 9 vào các ô
+    trong bảng vuông 9x9 sao cho trên mỗi
+    hàng, mỗi cột và mỗi bảng vuông con
+    3x3 đều có mặt đầy đủ 1 chữ số từ 1
+    đến 9
