@@ -25,6 +25,7 @@
     Liệt kê các nghiệm nguyên dương của phương trình
     A1X1 + A2X2 + . . . + ANXN = M
     In ra tích lớn nhất X1 * X2 * ... * XN
+    nếu không tìm được, in ra -1
 ##### Exercise 11:
     Điền các chữ số từ 1 đến 9 vào các ô
     trong bảng vuông 9x9 sao cho trên mỗi
