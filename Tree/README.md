@@ -33,6 +33,6 @@
 ##### Exercise 5: Binary tree manipulation 2
     insert node
     delete node
-
+    khi cây rỗng, in ra NONE
 
 
