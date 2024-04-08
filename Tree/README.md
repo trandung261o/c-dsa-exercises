@@ -34,14 +34,17 @@
     insert node
     delete node
     khi cây rỗng, in ra NONE
-##### Exercise 6: 
-    Given a BST initialized by NULL. Perform a sequence of operations on a BST including:
-    insert k: insert a key k into the BST (do not insert if the key k exists)
-    - Input
-    Each line contains command under the form: “insert k”
-    The input is terminated by a line containing #
-    - Output
-    Write the sequence of keys of nodes visited by the pre-order traversal (separated by a SPACE character)
+### Exercise 6: 
+Given a BST initialized by NULL. Perform a sequence of operations on a BST including:
+insert k: insert a key k into the BST (do not insert if the key k exists)
+- Input:
+
+Each line contains command under the form: “insert k”
+The input is terminated by a line containing #
+- Output:
+
+Write the sequence of keys of nodes visited by the pre-order traversal (separated by a SPACE character)
+
     insert 20
     insert 10
     insert 26
@@ -52,6 +55,7 @@
     insert 3
     insert 8
     #
-    Output
+Output
+
     20 10 7 3 8 15 26 23 30
 
