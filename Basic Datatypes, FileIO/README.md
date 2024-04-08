@@ -99,24 +99,29 @@ Result:
     number of lines; when one file's content is fully
     read, the program copies the remaining lines from
     the other file to file 3
-##### Exercise 16:
-    Create a text file named product.txt, where each line contains information about a product: 
-    ID (integer), Product Name (a string without whitespaces), Price (double). 
-    The data fields are separated by a space or tab character. For example:
-        1 Samsung_Television_4K 20000000
-        2 Apple_MacBook_2020 18560000
-    Write a program to read the above file into an array of structure elements and 
-    then display the content of the array on the screen in the following format:
-        No     Product Name             Price
-        1      Samsung_Television_4K    20000000
+### Exercise 16:
+Create a text file named product.txt, where each line contains information about a product: 
+
+ID (integer), Product Name (a string without whitespaces), Price (double). 
+
+The data fields are separated by a space or tab character. For example:
+
+    1 Samsung_Television_4K 20000000
+    2 Apple_MacBook_2020 18560000
+Write a program to read the above file into an array of structure elements and 
+then display the content of the array on the screen in the following format:
+
+    No     Product Name             Price
+    1      Samsung_Television_4K    20000000
         ...
-##### Exercise 17: 
-    Implement the function my_strcat:
-    - Takes two input strings, s1 and s2.
-    - Returns a pointer pointing to the dynamically allocated memory containing the concatenated string of s1 and s2.
-    Example: Concatenating "hello_" and "world!" results in "hello_world!"
-    - Utilize dynamic memory allocation techniques.
-    - Test your function
+### Exercise 17: 
+Implement the function my_strcat:
+- Takes two input strings, s1 and s2.
+- Returns a pointer pointing to the dynamically allocated memory containing the concatenated string of s1 and s2.
+
+Example: Concatenating "hello_" and "world!" results in "hello_world!"
+- Utilize dynamic memory allocation techniques.
+- Test your function
 
 
 
