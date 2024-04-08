@@ -58,47 +58,63 @@ Example:
 Result:
 
     HUST love I
-##### Exercise 10:
-    Write a program to calculate the exponential function of a natural base, e, raised to the power of x. 
-    Users can run the program with two syntaxes:
-    <Program_Name> <exponential_value>, for example: e 50
-    Or
-    <Program_Name> <exponential_value> <permissible_error>. For example: e 50 0.0003
-##### Exercise 11:
-    Write a program named 'sde' that takes command line arguments as the coefficients of a quadratic 
-    equation ax^2 + bx + c = 0 and solves the equation, printing the solutions on the screen.
-    - Syntax using 'sde a b c'
-    - Example: ./sde 1 2 1 yields the result: x1 = x2 = -1
-##### Exercise 12: Copying File Content
-    Create a text file named 'lab1.txt' with any content, 
-    saved in the same directory as the program.
-    Write a program to read from the above file character by character, 
-    then write them to a new file named 'lab1w.txt'.
-##### Exercise 13:
-    Re-implement the file content copying programming exercise, 
-    but instead of using the fgetc and fputc function pair, 
-    use the fgets and fputs function pair to read from the file and write to the file, 
-    processing one line of text content at a time.
-##### Exercise 14:
-    Modify the file copying program so that the program only displays the file content on the screen, 
-    then shows the number of lines of text.
-    Illustration of the program interface:
-        Reading file Haiku.txt…. done!
-        Haiku haiku
-        Tokyo
-        Hanoi
-        This file has 3 lines
-##### Exercise 15: 
-    Write a command-line program as follows:
+### Exercise 10:
+Write a program to calculate the exponential function of a natural base, e, raised to the power of x. 
+Users can run the program with two syntaxes:
+
+<Program_Name> <exponential_value>, for example: 
+
+    e 50
+Or
+<Program_Name> <exponential_value> <permissible_error>. For example: 
+
+    e 50 0.0003
+### Exercise 11:
+Write a program named 'sde' that takes command line arguments as the coefficients of a quadratic 
+equation ax^2 + bx + c = 0 and solves the equation, printing the solutions on the screen.
+
+Syntax using 'sde a b c'. 
+Example:
+
+    ./sde 1 2 1
+  
+yields the result:
+
+      x1 = x2 = -1
+### Exercise 12: Copying File Content
+Create a text file named 'lab1.txt' with any content, 
+saved in the same directory as the program.
+Write a program to read from the above file character by character, 
+then write them to a new file named 'lab1w.txt'.
+### Exercise 13:
+Re-implement the file content copying programming exercise, 
+but instead of using the fgetc and fputc function pair, 
+use the fgets and fputs function pair to read from the file and write to the file, 
+processing one line of text content at a time.
+### Exercise 14:
+Modify the file copying program so that the program only displays the file content on the screen, 
+then shows the number of lines of text.
+Illustration of the program interface:
+
+    Reading file Haiku.txt…. done!
+    Haiku haiku
+    Tokyo
+    Hanoi
+    This file has 3 lines
+### Exercise 15: 
+Write a command-line program as follows:
+
     merge <file1> <file2> <file3>
-    The program writes to file 3 by reading and
-    merging each line sequentially from file 1 and file 2.
-    The program reads a line from file 1, writes it to
-    file 3, then reads a line from file 2 and writes it to
-    file 3. Note: File 1 and File 2 may have a different
-    number of lines; when one file's content is fully
-    read, the program copies the remaining lines from
-    the other file to file 3
+The program writes to file 3 by reading and
+merging each line sequentially from file 1 and file 2.
+The program reads a line from file 1, writes it to
+file 3, then reads a line from file 2 and writes it to
+file 3. 
+
+Note: File 1 and File 2 may have a different
+number of lines; when one file's content is fully
+read, the program copies the remaining lines from
+the other file to file 3
 ### Exercise 16:
 Create a text file named product.txt, where each line contains information about a product: 
 
